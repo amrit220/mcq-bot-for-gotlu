@@ -1194,9 +1194,14 @@ function checkAnswer(userAnswer) {
       resultContainer.innerHTML = `Wrong! The correct answer is ${correctAnswer}.`;
   }
 
-  // Load next question
-  loadQuestion();
+  // Load next question only if the quiz hasn't ended
+  if (!quizEnded) {
+      // next question
+      currentQuestionIndex++;
+      loadQuestion();
+  }
 }
+
 
 // Display total number of questions
 totalQuestionsContainer.innerHTML = `Total Questions: ${questions.length}`;
