@@ -1148,6 +1148,7 @@ let quizEnded = false;
 
 const questionContainer = document.getElementById("question-container");
 const resultContainer = document.getElementById("result-container");
+const totalQuestionsContainer = document.getElementById("total-questions-container"); // Add this line
 
 // Function to load question and options
 function loadQuestion() {
@@ -1191,7 +1192,8 @@ function checkAnswer(userAnswer) {
         resultContainer.innerHTML = `Your Score: ${score} out of ${questions.length}.`;
     }
 }
-
+// Display total number of questions
+totalQuestionsContainer.innerHTML = `Total Questions: ${questions.length}`;
 // Start the quiz 
 shuffleArray(questions);
 loadQuestion();
