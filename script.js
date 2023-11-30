@@ -906,7 +906,236 @@ const questions = [
     options: ["A) High consumer demand", "B) Lack of government support", "C) Limited availability in retail markets", "D) Low nutritional value"],
     correctAnswer: "C) Limited availability in retail markets"
   },
-  
+  {
+    question: "What does GHI stand for in the context of the Global Hunger Index?",
+    options: ["Global Health Index", "Government Hunger Indicator", "Global Hunger Index", "Gross Hunger Incidence"],
+    correctAnswer: "Global Hunger Index"
+  },
+  {
+    question: "Which organizations publish the Global Hunger Index annually?",
+    options: ["UNICEF and WHO", "Concern Worldwide and Welthungerhilfe", "World Bank and IMF", "Red Cross and Oxfam"],
+    correctAnswer: "Concern Worldwide and Welthungerhilfe"
+  },
+  {
+    question: "What does a GHI score of 0 indicate?",
+    options: ["Severe hunger", "No hunger", "Moderate hunger", "Extreme hunger"],
+    correctAnswer: "No hunger"
+  },
+  {
+    question: "What is the GHI score for India in 2023?",
+    options: ["29.2", "28.7", "35.5", "38.4"],
+    correctAnswer: "28.7"
+  },
+  {
+    question: "How is child stunting defined in the GHI?",
+    options: ["Low weight for height", "Low height for age", "Low weight for age", "Low BMI for age"],
+    correctAnswer: "Low height for age"
+  },
+  {
+    question: "Which neighboring country scored better than India in the GHI 2023?",
+    options: ["Pakistan", "Bangladesh", "Nepal", "Sri Lanka"],
+    correctAnswer: "Bangladesh"
+  },
+  {
+    question: "What is the primary indicator for Sustainable Development Goal 2.1?",
+    options: ["Child stunting", "Child wasting", "Undernourishment", "Child mortality"],
+    correctAnswer: "Undernourishment"
+  },
+  {
+    question: "Which factor is not included in the calculation of the GHI score?",
+    options: ["Child mortality", "Child wasting", "Adult obesity", "Child stunting"],
+    correctAnswer: "Adult obesity"
+  },
+  {
+    question: "What is the GHI 2023 score for the world?",
+    options: ["10.5", "18.3", "25.9", "30.7"],
+    correctAnswer: "18.3"
+  },
+  {
+    question: "What are some of the global crises attributed to the stagnation in GHI progress?",
+    options: ["Climate change, conflicts, economic shocks", "Political instability, currency devaluation", "Technological disruption, trade disputes", "Health epidemics, social media influence"],
+    correctAnswer: "Climate change, conflicts, economic shocks"
+  },
+  {
+    question: "What percentage of the population facing severe food shortages defines a famine according to the UN?",
+    options: ["At least 5%", "At least 10%", "At least 20%", "At least 30%"],
+    correctAnswer: "At least 20%"
+  },
+  {
+    question: "What is 'hidden hunger'?",
+    options: ["Hunger that is concealed from public view", "A severe form of acute malnutrition", "Micronutrient deficiency", "Starvation due to food scarcity"],
+    correctAnswer: "Micronutrient deficiency"
+  },
+  {
+    question: "What are some of the causes of hidden hunger?",
+    options: ["Overeating", "Infections and illnesses", "Lack of exercise", "Genetic factors"],
+    correctAnswer: "Infections and illnesses"
+  },
+  {
+    question: "Which government initiative in India focuses on nutrition and child development?",
+    options: ["Swachh Bharat Abhiyan", "POSHAN Abhiyan (National Nutrition Mission)", "Make in India", "Digital India"],
+    correctAnswer: "POSHAN Abhiyan (National Nutrition Mission)"
+  },
+  {
+    question: "Which program provides mid-day meals to school children in India?",
+    options: ["PM Garib Kalyan Yojna", "Integrated Child Development Services (ICDS) Scheme", "National Food Security Act, 2013", "Mid-day Meal (MDM) scheme"],
+    correctAnswer: "Mid-day Meal (MDM) scheme"
+  },
+  {
+    question: "What is the focus of the Eat Right India Movement?",
+    options: ["Promoting physical fitness", "Encouraging organic farming", "Raising awareness about balanced diets and nutrition", "Reducing food waste"],
+    correctAnswer: "Raising awareness about balanced diets and nutrition"
+  },
+  {
+    question: "How can information technology be used in addressing hunger?",
+    options: ["Implementing mobile nutritional clinics", "Enhancing transparency in food distribution", "Reducing food wastage", "Monitoring the temperature of food storage facilities"],
+    correctAnswer: "Enhancing transparency in food distribution"
+  },
+  {
+    question: "Which government program aims to improve the nutritional status of pregnant and lactating women in India?",
+    options: ["Pradhan Mantri Matru Vandana Yojana", "Mission Indradhanush", "PM Garib Kalyan Yojna", "National Food Security Act, 2013"],
+    correctAnswer: "Pradhan Mantri Matru Vandana Yojana"
+  },
+  {
+    question: "What is one way to tackle hunger and malnutrition through technology, according to the information?",
+    options: ["Implement mobile nutritional clinics", "Promote organic farming", "Improve internet connectivity in rural areas", "Develop more food delivery apps"],
+    correctAnswer: "Implement mobile nutritional clinics"
+  },
+  {
+    question: "Which government initiative focuses on improving the distribution of subsidized food to economically disadvantaged populations?",
+    options: ["POSHAN Abhiyan (National Nutrition Mission)", "Eat Right India Movement", "Pradhan Mantri Matru Vandana Yojana", "Public Distribution System (PDS) Enhancement"],
+    correctAnswer: "Public Distribution System (PDS) Enhancement"
+  },
+  {
+    question: "What is the key argument made by the Indian government in response to the GHI 2023 report?",
+    options: ["India’s hunger situation is much worse than reported", "The GHI methodology is flawed", "India’s child wasting rate is the lowest in the world", "The government needs more funding to address hunger"],
+    correctAnswer: "The GHI methodology is flawed"
+  },
+  {
+    question: "Which indicator is criticized by the Indian government for being based on a small sample size opinion poll?",
+    options: ["Child stunting", "Child wasting", "Child mortality", "Proportion of Undernourished Population"],
+    correctAnswer: "Proportion of Undernourished Population"
+  },
+  {
+    question: "According to the Indian government, what are some of the complex factors that contribute to indicators like stunting and wasting?",
+    options: ["Climate change and conflicts", "Sanitation, genetics, environment, and food utilization", "The quality of healthcare services", "Government policies"],
+    correctAnswer: "Sanitation, genetics, environment, and food utilization"
+  },
+  {
+    question: "Which factor is not mentioned as a contributor to hunger in India in the information?",
+    options: ["Socioeconomic Disparities and Poverty", "Gender Inequality and Nutritional Disparities", "Lack of access to clean water", "Climate Change and Environmental Stressors"],
+    correctAnswer: "Lack of access to clean water"
+  },
+  {
+    question: "What is the 'Way Forward' recommendation related to the Public Distribution System (PDS)?",
+    options: ["Abolish the PDS to reduce government expenses", "Enhance transparency, reliability, and affordability of nutritious food", "Create more government jobs", "Establish more food banks"],
+    correctAnswer: "Enhance transparency, reliability, and affordability of nutritious food"
+  },
+  {
+    question: "Which Sustainable Development Goal (SDG) focuses on ensuring access to safe, nutritious, and sufficient food for all?",
+    options: ["SDG 1.1", "SDG 2.1", "SDG 3.2", "SDG 4.3"],
+    correctAnswer: "SDG 2.1"
+  },
+  {
+    question: "What is the prevalence of child stunting in India, according to the information?",
+    options: ["7.2%", "16.6%", "18.7%", "35.5%"],
+    correctAnswer: "35.5%"
+  },
+  {
+    question: "Which neighboring country scored the highest GHI rank in 2023?",
+    options: ["Pakistan", "Bangladesh", "Nepal", "Sri Lanka"],
+    correctAnswer: "Sri Lanka"
+  },
+  {
+    question: "What is the GHI score for India in 2000?",
+    options: ["38.4", "29.2", "35.5", "28.7"],
+    correctAnswer: "38.4"
+  },
+  {
+    question: "Which of the following is not one of the four indicators used to calculate the GHI score?",
+    options: ["Child mortality", "Child wasting", "Adult obesity", "Undernourishment"],
+    correctAnswer: "Adult obesity"
+  },
+  {
+    question: "What does the Indian government argue regarding child mortality in relation to hunger?",
+    options: ["Child mortality is solely due to hunger", "Child mortality is unrelated to hunger", "Other factors contribute to child mortality", "Child mortality is decreasing in India"],
+    correctAnswer: "Other factors contribute to child mortality"
+  },
+  {
+    question: "What is the GHI 2023 score for Yemen?",
+    options: ["30.0", "40.2", "45.8", "Not mentioned in the information"],
+    correctAnswer: "40.2"
+  },
+  {
+    question: "Which Indian initiative focuses on improving maternal and child health?",
+    options: ["Pradhan Mantri Matru Vandana Yojana", "National Food Security Act, 2013", "POSHAN Abhiyan (National Nutrition Mission)", "PM Garib Kalyan Yojna"],
+    correctAnswer: "Pradhan Mantri Matru Vandana Yojana"
+  },
+  {
+    question: "What is the GHI 2023 score for Belarus?",
+    options: ["5.4", "18.3", "30.9", "60.5"],
+    correctAnswer: "5.4"
+  },
+  {
+    question: "What percentage of child wasting is reported for India in the GHI 2023?",
+    options: ["7.2%", "18.7%", "3.1%", "35.5%"],
+    correctAnswer: "18.7%"
+  },
+  {
+    question: "Which organization is responsible for publishing the GHI report?",
+    options: ["UNICEF", "Welthungerhilfe", "Concern Worldwide", "Oxfam"],
+    correctAnswer: "Concern Worldwide"
+  },
+  {
+    question: "What is the GHI 2023 score for Central African Republic?",
+    options: ["18.3", "35.5", "60.0", "Not mentioned in the information"],
+    correctAnswer: "60.0"
+  },
+  {
+    question: "Which initiative aims to improve food distribution to economically disadvantaged populations in India?",
+    options: ["POSHAN Abhiyan (National Nutrition Mission)", "Pradhan Mantri Matru Vandana Yojana", "Public Distribution System (PDS) Enhancement", "Mission Indradhanush"],
+    correctAnswer: "Public Distribution System (PDS) Enhancement"
+  },
+  {
+    question: "Which indicator is an outcome of various complex factors, according to the Indian government?",
+    options: ["Child mortality", "Child wasting", "Child stunting", "Undernourishment"],
+    correctAnswer: "Child stunting"
+  },
+  {
+    question: "What is the GHI 2023 score for China?",
+    options: ["20.5", "10.0", "50.7", "Not mentioned in the information"],
+    correctAnswer: "20.5"
+  },
+  {
+    question: "What is the primary focus of the National Food Security Act, 2013, in India?",
+    options: ["Improving maternal health", "Enhancing national security", "Ensuring food security for economically disadvantaged populations", "Promoting organic farming"],
+    correctAnswer: "Ensuring food security for economically disadvantaged populations"
+  },
+  {
+    question: "Which Sustainable Development Goal (SDG) aims to end all forms of malnutrition?",
+    options: ["SDG 1.1", "SDG 2.2", "SDG 3.2", "SDG 4.3"],
+    correctAnswer: "SDG 2.2"
+  },
+  {
+    question: "Which factor is mentioned as a contributor to hunger in India due to inefficient agricultural practices?",
+    options: ["Poor internet connectivity", "Crop yields and post-harvest losses", "Lack of government funding", "Excessive food imports"],
+    correctAnswer: "Crop yields and post-harvest losses"
+  },
+  {
+    question: "What is the GHI 2023 score for Madagascar?",
+    options: ["18.3", "35.5", "60.0", "Not mentioned in the information"],
+    correctAnswer: "Not mentioned in the information"
+  },
+  {
+    question: "What is the purpose of the Mission Indradhanush initiative in India?",
+    options: ["Promoting digital literacy", "Immunizing children and pregnant women", "Enhancing agricultural practices", "Ensuring clean drinking water access"],
+    correctAnswer: "Immunizing children and pregnant women"
+  },
+  {
+    question: "What is the focus of the 'Eat Right India Movement'?",
+    options: ["Promoting a vegetarian diet", "Encouraging organic farming", "Raising awareness about balanced diets and nutrition", "Reducing food exports"],
+    correctAnswer: "Raising awareness about balanced diets and nutrition"
+  },
 
       
       
