@@ -19,6 +19,55 @@
         
         
     </div>
+    <div>
+        <h1 id="display">00:00:00</h1>
+        <button onclick="startStopwatch()">Start</button>
+        <button onclick="stopStopwatch()">Stop</button>
+        <button onclick="resetStopwatch()">Reset</button>
+      </div>
+    
+      <script>
+        let startTime;
+        let stopwatchInterval;
+        let running = false;
+    
+        function startStopwatch() {
+          if (!running) {
+            running = true;
+            startTime = new Date().getTime() - (localStorage.getItem('elapsedTime') || 0);
+            stopwatchInterval = setInterval(updateDisplay, 1000);
+          }
+        }
+    
+        function stopStopwatch() {
+          if (running) {
+            running = false;
+            clearInterval(stopwatchInterval);
+            localStorage.setItem('elapsedTime', new Date().getTime() - startTime);
+          }
+        }
+    
+        function resetStopwatch() {
+          if (!running) {
+            startTime = new Date().getTime();
+            updateDisplay();
+            localStorage.removeItem('elapsedTime');
+          }
+        }
+    
+        function updateDisplay() {
+          const elapsedTime = new Date().getTime() - startTime;
+          const hours = Math.floor(elapsedTime / 3600000);
+          const minutes = Math.floor((elapsedTime % 3600000) / 60000);
+          const seconds = Math.floor((elapsedTime % 60000) / 1000);
+    
+          document.getElementById('display').innerText = `${formatTime(hours)}:${formatTime(minutes)}:${formatTime(seconds)}`;
+        }
+    
+        function formatTime(value) {
+          return value < 10 ? `0${value}` : value;
+        }
+      </script>
     
 
     <script src="script.js"></script>
